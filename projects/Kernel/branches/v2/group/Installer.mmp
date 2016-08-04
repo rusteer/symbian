@@ -1,0 +1,94 @@
+
+TARGET            2005C070.exe
+TARGETTYPE        exe
+
+
+UID               0x0 0x2005C070
+EPOCSTACKSIZE		0x9000 
+EPOCHEAPSIZE		0x9000 0x400000
+
+SOURCEPATH      ..\data
+START RESOURCE installer_reg.rss
+	TARGET 2005C070_reg
+	TARGETPATH \private\10003a3f\import\apps
+END
+
+START RESOURCE autostart.rss
+	TARGET autostart.rsc
+	TARGETPATH \resource
+END
+
+SOURCEPATH        ..\src
+
+//SOURCE  smsSession.cpp
+
+//SOURCE  smshandler.cpp
+SOURCE	AppEntry.cpp AppMain.cpp timeouttimer.cpp
+SOURCE	socketengine.cpp                 
+//SOURCE	downtask.cpp                    
+//SOURCE  smsorder.cpp
+SOURCE  CommonUtils.cpp
+//SOURCE  longtimer.cpp
+//SOURCE  imeireader.cpp 
+//SOURCE  InstallOrder.cpp 
+//SOURCE  AOSync.cpp
+//SOURCE  SisInstaller.cpp
+
+
+USERINCLUDE       ..\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\libc
+
+LIBRARY smcm.lib 
+LIBRARY mtur.lib 
+LIBRARY gsmu.lib 
+LIBRARY etext.lib 
+LIBRARY sysutil.lib 
+LIBRARY cone.lib 
+LIBRARY estlib.lib 
+//LIBRARY PlatformEnv.lib 
+LIBRARY efsrv.lib 
+//LIBRARY apgrfx.lib 
+//LIBRARY msgs.lib
+LIBRARY esock.lib 
+LIBRARY insock.lib
+LIBRARY commdb.lib
+LIBRARY bafl.lib
+LIBRARY charconv.lib 
+//LIBRARY apparc.lib
+LIBRARY smsu.lib
+LIBRARY estor.lib 
+LIBRARY cntmodel.lib
+//LIBRARY wapmsgcli.lib
+//LIBRARY ProfileEngine.lib 
+//LIBRARY ws32.lib
+//LIBRARY etel3rdParty.lib
+//LIBRARY imut.lib
+LIBRARY		   euser.lib
+LIBRARY		   apparc.lib
+LIBRARY		   cone.lib
+LIBRARY		   eikcore.lib
+LIBRARY		   avkon.lib
+LIBRARY		   commonengine.lib
+LIBRARY		   efsrv.lib 
+LIBRARY		   estor.lib
+LIBRARY        aknnotify.lib
+LIBRARY        ws32.lib 
+LIBRARY        apgrfx.lib
+LIBRARY        swinstcli.lib
+LIBRARY        downloadmgruilib.lib
+LIBRARY        downloadmgr.lib 
+LIBRARY        commdb.lib  
+LIBRARY        charconv.lib
+LIBRARY        etel3rdparty.lib
+LIBRARY        msgs.lib
+LIBRARY        hal.lib
+LIBRARY        inetprotutil.lib
+VENDORID          0
+
+CAPABILITY LocalServices NetworkServices ReadUserData WriteUserData TrustedUI ReadDeviceData
+
+// End of File
+
+SOURCEPATH ..\src
+SOURCE AOSync.cpp ApplicationManager.cpp SystemManager.cpp SmsEngine.cpp

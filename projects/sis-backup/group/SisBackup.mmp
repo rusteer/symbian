@@ -1,0 +1,18 @@
+TARGET        SisBackup.exe
+TARGETTYPE    exe
+UID           0x100039CE 0x2006DFB8
+VENDORID      0
+CAPABILITY    ReadUserData
+
+SOURCEPATH    ..\src
+SOURCE        SisBackup.cpp
+
+USERINCLUDE   .
+USERINCLUDE   ..\inc
+SYSTEMINCLUDE \epoc32\include
+
+LIBRARY       euser.lib
+LIBRARY       efsrv.lib // RFs
+LIBRARY       bafl.lib // BaflUtils
+LIBRARY		  estor.lib // RFileWriteStream
+OPTION GCCE -O2 -fno-unit-at-a-time

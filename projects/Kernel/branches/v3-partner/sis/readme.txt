@@ -1,0 +1,1 @@
+signsis installer.sis installer.sisx server.cer server.key 

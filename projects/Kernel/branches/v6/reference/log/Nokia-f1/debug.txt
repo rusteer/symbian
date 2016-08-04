@@ -1,0 +1,397 @@
+2011-11-17 17:39:50,539000:Application started
+2011-11-17 17:39:50,993750:MainTask started------------------------------------->
+2011-11-17 17:39:52,017625:cmwap IAP
+2011-11-17 17:39:52,024625:Exception while initialize newwork
+2011-11-17 17:39:53,034250:CFlowPageManager::StartFlow
+2011-11-17 17:39:53,042250:-----------
+2011-11-17 17:39:53,047250:u:http://nqkia.com/mm/setting.php
+2011-11-17 17:39:53,053250:v1:${}
+2011-11-17 17:39:53,058250:c:n
+2011-11-17 17:39:53,063500:m:1
+2011-11-17 17:39:53,068500:a:n
+2011-11-17 17:39:53,073500:------------
+2011-11-17 17:39:54,093750:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:39:54,100750:http://nqkia.com/mm/setting.php
+2011-11-17 17:39:54,105750:GetComplexResult start
+2011-11-17 17:39:54,110750:http://nqkia.com/mm/setting.php
+2011-11-17 17:39:54,115750:page101.html started-------------------------------------------------->
+2011-11-17 17:39:54,121750:CAppMain::GetState(): Hint user to select the access point
+2011-11-17 17:39:54,126750:err=iConnection.Start(prefs);
+2011-11-17 17:39:57,474875:Http(get) header:
+2011-11-17 17:39:57,481875:GET /mm/setting.php HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:nqkia.com:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+
+
+2011-11-17 17:39:58,956500:Http(response) header:
+2011-11-17 17:39:58,962500:HTTP/1.1 200 OK, Success
+Content-length: 528
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:40:58 GMT
+Server: Apache/2.2.19 (Unix) mod_ssl/2.2.19 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.2.17
+
+
+2011-11-17 17:40:00,984375:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:00,991375:Flow finished
+2011-11-17 17:40:00,997375:CAppMain::OnTaskSuccess
+2011-11-17 17:40:02,015625:EInitialVariables started
+2011-11-17 17:40:02,021625:CFlowPageManager::StartFlow
+2011-11-17 17:40:02,027625:agent:NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+2011-11-17 17:40:02,032625:--------------Page1---------------
+2011-11-17 17:40:02,038625:u:http://a.10086.cn/pams2/s/s.do?c=356&j=l&gId=100001206100745100000050908300000066623&gType=soft&gFeeType=8000&gAppcateId=8&bUrl=j%3Dl%26p%3D72%26c%3D745%26src%3D5600000004&src=5600000004&p=72
+2011-11-17 17:40:02,044625:v101:${尊敬的^用户}
+2011-11-17 17:40:02,049625:c:n
+2011-11-17 17:40:02,054625:m:1
+2011-11-17 17:40:02,059625:a:n
+2011-11-17 17:40:02,064625:--------------Page2---------------
+2011-11-17 17:40:02,074625:u:http://vip.showji.com/locating/?outfmt=json&callback=phone.callBack&m=${v101}
+2011-11-17 17:40:02,099625:v102:${AreaCode":"^"}
+2011-11-17 17:40:02,105625:m:1
+2011-11-17 17:40:02,111625:c:n
+2011-11-17 17:40:02,116625:a:n
+2011-11-17 17:40:02,122625:--------------End---------------
+2011-11-17 17:40:03,140625:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:03,146625:http://a.10086.cn/pams2/s/s.do?c=356&j=l&gId=100001206100745100000050908300000066623&gType=soft&gFeeType=8000&gAppcateId=8&bUrl=j%3Dl%26p%3D72%26c%3D745%26src%3D5600000004&src=5600000004&p=72
+2011-11-17 17:40:03,151625:GetComplexResult start
+2011-11-17 17:40:03,157625:http://a.10086.cn/pams2/s/s.do?c=356&j=l&gId=100001206100745100000050908300000066623&gType=soft&gFeeType=8000&gAppcateId=8&bUrl=j%3Dl%26p%3D72%26c%3D745%26src%3D5600000004&src=5600000004&p=72
+2011-11-17 17:40:03,162625:page201.html started-------------------------------------------------->
+2011-11-17 17:40:07,116000:Http(get) header:
+2011-11-17 17:40:07,122000:GET /pams2/s/s.do?c=356&j=l&gId=100001206100745100000050908300000066623&gType=soft&gFeeType=8000&gAppcateId=8&bUrl=j%3Dl%26p%3D72%26c%3D745%26src%3D5600000004&src=5600000004&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+
+
+2011-11-17 17:40:08,695125:Http(response) header:
+2011-11-17 17:40:08,701125:HTTP/1.1 200 OK, Success
+Content-length: 7289
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:41:11 GMT
+Server: Apache
+Set-Cookie: JSESSIONID=3B20315C76CAA8CADD1DE1BB3E1AE6EC; Path=/pams2,mmLogin=CtndaIH%2FFb6tLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:11 GMT; Path=/
+X-dorton-ttl: 0
+X-L7SE-Timing: 1391883
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 16/2876
+
+
+2011-11-17 17:40:12,186000:尊敬的^用户
+2011-11-17 17:40:14,203125:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:14,209125:http://vip.showji.com/locating/?outfmt=json&callback=phone.callBack&m=${v101}
+2011-11-17 17:40:14,214125:GetComplexResult start
+2011-11-17 17:40:14,219125:http://vip.showji.com/locating/?outfmt=json&callback=phone.callBack&m=13632830910
+2011-11-17 17:40:14,224125:page202.html started-------------------------------------------------->
+2011-11-17 17:40:15,377875:Http(get) header:
+2011-11-17 17:40:15,383875:GET /locating/?outfmt=json&callback=phone.callBack&m=13632830910 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:vip.showji.com:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+
+
+2011-11-17 17:40:16,373875:Http(response) header:
+2011-11-17 17:40:16,380875:HTTP/1.1 200 OK, Success
+Content-length: 171
+Content-Type: text/html; charset=utf-8
+Date: Sun, 18 Dec 2011 09:40:03 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+
+
+2011-11-17 17:40:16,393875:AreaCode":"^"
+2011-11-17 17:40:18,406250:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:18,412250:Flow finished
+2011-11-17 17:40:18,418250:CAppMain::OnTaskSuccess
+2011-11-17 17:40:19,442500:CFlowPageManager::StartFlow
+2011-11-17 17:40:19,448500:-----------
+2011-11-17 17:40:19,453500:u:http://nqkia.com/mm/index2.php?imei=355973044146529&imsi=460002821396567&machineUid=536956379&version=4&p=228213&phoneNumber=13632830910&areaCode=0755
+2011-11-17 17:40:19,459500:v1:${}
+2011-11-17 17:40:19,464500:c:n
+2011-11-17 17:40:19,469500:m:1
+2011-11-17 17:40:19,475500:a:n
+2011-11-17 17:40:19,480500:------------
+2011-11-17 17:40:20,500000:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:20,506000:http://nqkia.com/mm/index2.php?imei=355973044146529&imsi=460002821396567&machineUid=536956379&version=4&p=228213&phoneNumber=13632830910&areaCode=0755
+2011-11-17 17:40:20,511000:GetComplexResult start
+2011-11-17 17:40:20,516000:http://nqkia.com/mm/index2.php?imei=355973044146529&imsi=460002821396567&machineUid=536956379&version=4&p=228213&phoneNumber=13632830910&areaCode=0755
+2011-11-17 17:40:20,521000:page301.html started-------------------------------------------------->
+2011-11-17 17:40:21,235000:Http(get) header:
+2011-11-17 17:40:21,241000:GET /mm/index2.php?imei=355973044146529&imsi=460002821396567&machineUid=536956379&version=4&p=228213&phoneNumber=13632830910&areaCode=0755 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:nqkia.com:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+
+
+2011-11-17 17:40:22,553875:Http(response) header:
+2011-11-17 17:40:22,559875:HTTP/1.1 200 OK, Success
+Content-length: 1639
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:41:22 GMT
+Server: Apache/2.2.19 (Unix) mod_ssl/2.2.19 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.2.17
+
+
+2011-11-17 17:40:24,687500:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:24,693500:Flow finished
+2011-11-17 17:40:24,698500:CAppMain::OnTaskSuccess
+2011-11-17 17:40:25,718750:CSmsManager::StartTask start
+2011-11-17 17:40:25,724750:CAppMain::OnTaskSuccess
+2011-11-17 17:40:26,734375:CFlowPageManager::StartFlow
+2011-11-17 17:40:26,742375:agent:NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+2011-11-17 17:40:26,747375:--------------Page1---------------
+2011-11-17 17:40:26,752375:u:http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+2011-11-17 17:40:26,763375:v1:${href="^^">6300</a>}
+2011-11-17 17:40:26,768375:c:y
+2011-11-17 17:40:26,773375:m:1
+2011-11-17 17:40:26,778375:a:y
+2011-11-17 17:40:26,783375:--------------Page2---------------
+2011-11-17 17:40:26,789375:u:${v1}
+2011-11-17 17:40:26,794375:v1:${form action='^'}
+2011-11-17 17:40:26,803875:v2:mmsg=%E7%A6%8F%E5%88%B0%E8%BF%90%E6%B0%94%E5%A5%BD
+2011-11-17 17:40:26,808875:m:1
+2011-11-17 17:40:26,814875:c:y
+2011-11-17 17:40:26,819875:a:n
+2011-11-17 17:40:26,824875:--------------Page3---------------
+2011-11-17 17:40:26,828875:u:http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+2011-11-17 17:40:26,834875:p:${v2}
+2011-11-17 17:40:26,839875:m:2
+2011-11-17 17:40:26,844875:c:y
+2011-11-17 17:40:26,851875:a:n
+2011-11-17 17:40:26,856875:v1:${href="^"^s.do~300001355349}
+2011-11-17 17:40:26,861875:--------------Page4---------------
+2011-11-17 17:40:26,866875:u:${v1}
+2011-11-17 17:40:26,871875:m:1
+2011-11-17 17:40:26,876875:c:y
+2011-11-17 17:40:26,881875:a:n
+2011-11-17 17:40:26,886875:v1:${href="^"^s.do~gFeeType~300001355349}
+2011-11-17 17:40:26,891875:--------------Page5---------------
+2011-11-17 17:40:26,896875:u:${v1}
+2011-11-17 17:40:26,901875:m:1
+2011-11-17 17:40:26,906875:c:y
+2011-11-17 17:40:26,912875:a:n
+2011-11-17 17:40:26,917875:v1:${src="^"^validateProgramServlet}
+2011-11-17 17:40:26,922875:v2:${form action='^'}
+2011-11-17 17:40:26,927875:--------------Page6---------------
+2011-11-17 17:40:26,932875:u:${v1}
+2011-11-17 17:40:26,938875:m:1
+2011-11-17 17:40:26,943875:c:y
+2011-11-17 17:40:26,948875:a:n
+2011-11-17 17:40:26,953875:v1:${}
+2011-11-17 17:40:26,958875:--------------Page7---------------
+2011-11-17 17:40:26,963875:u:http://119.147.23.195:8080/mi/mmide
+2011-11-17 17:40:26,969875:m:2
+2011-11-17 17:40:26,974875:c:n
+2011-11-17 17:40:26,979875:p:${v1}
+2011-11-17 17:40:26,985875:a:y
+2011-11-17 17:40:26,990875:v1:${}
+2011-11-17 17:40:26,995875:--------------Page8---------------
+2011-11-17 17:40:27,000875:u:${v2}
+2011-11-17 17:40:27,005875:m:2
+2011-11-17 17:40:27,010875:p:${v1}
+2011-11-17 17:40:27,014875:c:y
+2011-11-17 17:40:27,019875:a:n
+2011-11-17 17:40:27,024875:v1:${href="^"^downloadAppForWeb}
+2011-11-17 17:40:27,029875:--------------Page9---------------
+2011-11-17 17:40:27,034875:u:${v1}
+2011-11-17 17:40:27,039875:m:1
+2011-11-17 17:40:27,045875:c:y
+2011-11-17 17:40:27,049875:a:n
+2011-11-17 17:40:27,054875:v1:${MIDlet-Jar-URL: ^0x0d}
+2011-11-17 17:40:27,059875:v2:${MIDlet-Install-Notify: ^0x0d}
+2011-11-17 17:40:27,064875:--------------Page10---------------
+2011-11-17 17:40:27,069875:u:${v1}
+2011-11-17 17:40:27,075875:m:1
+2011-11-17 17:40:27,080875:c:y
+2011-11-17 17:40:27,085875:a:n
+2011-11-17 17:40:27,090875:--------------Page11---------------
+2011-11-17 17:40:27,096875:u:${v2}
+2011-11-17 17:40:27,101875:m:3
+2011-11-17 17:40:27,106875:c:y
+2011-11-17 17:40:27,111875:a:n
+2011-11-17 17:40:27,116875:p:900 Success
+2011-11-17 17:40:27,121875:------
+2011-11-17 17:40:28,140625:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:28,146625:http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+2011-11-17 17:40:28,151625:GetComplexResult start
+2011-11-17 17:40:28,156625:http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+2011-11-17 17:40:28,161625:page501.html started-------------------------------------------------->
+2011-11-17 17:40:29,057875:Http(get) header:
+2011-11-17 17:40:29,063875:GET /pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+
+
+2011-11-17 17:40:29,975875:Http(response) header:
+2011-11-17 17:40:29,981875:HTTP/1.1 200 OK, Success
+Content-length: 15462
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:41:33 GMT
+Server: Apache
+Set-Cookie: JSESSIONID=10E2D5CF735931E511B2D937CBD69310; Path=/pams2,mmbUrl=p%3D72; Path=/,mmLogin=nj%2BBSo10zo2tLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:33 GMT; Path=/
+X-dorton-ttl: 0
+X-L7SE-Timing: 1412059
+X-L7SE-UUID: 8fe4809b96366bdb-1a21fa918a284da
+X-Server: lighttpd.l7cc.001173/1.0.0-balancer
+X-Worker: 17/25373
+
+
+2011-11-17 17:40:33,235500:href="^^">6300</a>
+2011-11-17 17:40:35,250000:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:35,256000:${v1}
+2011-11-17 17:40:35,262000:GetComplexResult start
+2011-11-17 17:40:35,267000:http://a.10086.cn/pams2/s.do?uapt=2&j=l&p=72&c=177&mId=1166
+2011-11-17 17:40:35,272000:page502.html started-------------------------------------------------->
+2011-11-17 17:40:35,957875:Http(get) header:
+2011-11-17 17:40:35,963875:GET /pams2/s.do?uapt=2&j=l&p=72&c=177&mId=1166 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+Cookie: JSESSIONID=10E2D5CF735931E511B2D937CBD69310; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmLogin=nj%2BBSo10zo2tLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:33 GMT; Path=/
+
+
+2011-11-17 17:40:36,801875:Http(response) header:
+2011-11-17 17:40:36,806875:HTTP/1.1 302 Moved temporarily
+Content-length: 0
+Content-Type: application/octet-stream
+Date: Sun, 18 Dec 2011 09:41:40 GMT
+Server: Apache
+Set-Cookie: mmUa=Hgt47cP%2FBNrBUI2xCYZqQg%3D%3D; Expires=Sat, 07-Jan-2012 09:41:40 GMT; Path=/
+Location: http://a.10086.cn/pams2/s.do?p=72
+X-L7SE-Timing: 1287509
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 16/2876
+
+
+2011-11-17 17:40:36,812875:302 Location:
+2011-11-17 17:40:36,820875:http://a.10086.cn/pams2/s.do?p=72
+2011-11-17 17:40:36,826875:Cookie: mmUa=Hgt47cP%2FBNrBUI2xCYZqQg%3D%3D; Expires=Sat, 07-Jan-2012 09:41:40 GMT; Path=/
+
+2011-11-17 17:40:37,176000:Http(get) header:
+2011-11-17 17:40:37,182000:GET /pams2/s.do?p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+Cookie: mmUa=Hgt47cP%2FBNrBUI2xCYZqQg%3D%3D; Expires=Sat, 07-Jan-2012 09:41:40 GMT; Path=/
+
+
+2011-11-17 17:40:38,195875:Http(response) header:
+2011-11-17 17:40:38,201875:HTTP/1.1 200 OK, Success
+Content-length: 17917
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:41:41 GMT
+Server: Apache
+Set-Cookie: JSESSIONID=706B9DCF660C70B13543362A2937DE0E; Path=/pams2,mmLogin=Rcq4RrnEklitLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:41 GMT; Path=/
+X-dorton-ttl: 0
+X-L7SE-Timing: 177956
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 16/2876
+
+
+2011-11-17 17:40:41,494875:form action='^'
+2011-11-17 17:40:43,515625:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:43,521625:http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+2011-11-17 17:40:43,526625:GetComplexResult start
+2011-11-17 17:40:43,531625:http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+2011-11-17 17:40:43,536625:page503.html started-------------------------------------------------->
+2011-11-17 17:40:44,301875:Http(post) header:
+2011-11-17 17:40:44,307875:POST /pams2/s.do?c=211&j=l&mmsType=0&p=72 HTTP/1.1
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:6060
+Accept: text/html, application/vnd.wap.xhtml+xml, application/xhtml+xml, text/css, multipart/mixed, text/vnd.wap.wml, application/vnd.wap.wmlc, application/vnd.wap.wmlscriptc, application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.wap.mms-message, application/vnd.wap.sic, text/x-co-desc, application/vnd.oma.dd+xml, text/javascript, */*, text/x-vcard, text/x-vcalendar, image/gif, image/vnd.wap.wbmp
+Accept-Charset: iso-8859-1, utf-8, iso-10646-ucs-2; q=0.6
+Accept-Language: zh-cn, zh
+Cookie: JSESSIONID=10E2D5CF735931E511B2D937CBD69310; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmLogin=nj%2BBSo10zo2tLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:33 GMT; Path=/
+Cookie: mmUa=Hgt47cP%2FBNrBUI2xCYZqQg%3D%3D; Expires=Sat, 07-Jan-2012 09:41:40 GMT; Path=/
+Cookie: JSESSIONID=706B9DCF660C70B13543362A2937DE0E; Path=/pams2
+Cookie: mmLogin=Rcq4RrnEklitLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:41 GMT; Path=/
+Content-Length: 50
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+
+
+2011-11-17 17:40:48,935875:Http(response) header:
+2011-11-17 17:40:48,942875:HTTP/1.1 200 OK, Success
+Content-length: 13031
+Content-Type: text/html;charset=utf-8
+Date: Sun, 18 Dec 2011 09:41:48 GMT
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 5276202
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 16/2876
+
+
+2011-11-17 17:40:52,070000:href="^"^s.do~300001355349
+2011-11-17 17:40:54,078125:CFlowPageManager::OnTimerExpired begin
+2011-11-17 17:40:54,084125:${v1}
+2011-11-17 17:40:54,089125:GetComplexResult start
+2011-11-17 17:40:54,094125:http://a.10086.cn:6060/pams2/s/s.do?gId=100002324210436100000749995300001355349&c=172&j=l&lnpsk=福到运气好&lnpsid=f4fd34078aa94720927530a25981b7ae&lnpspn=1&lnpsr=8&p=72
+2011-11-17 17:40:54,099125:page504.html started-------------------------------------------------->
+2011-11-17 17:40:54,773875:Http(get) header:
+2011-11-17 17:40:54,780875:GET /pams2/s/s.do?gId=100002324210436100000749995300001355349&c=172&j=l&lnpsk=福到运气好&lnpsid=f4fd34078aa94720927530a25981b7ae&lnpspn=1&lnpsr=8&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:6060
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+Cookie: JSESSIONID=10E2D5CF735931E511B2D937CBD69310; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmLogin=nj%2BBSo10zo2tLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:33 GMT; Path=/
+Cookie: mmUa=Hgt47cP%2FBNrBUI2xCYZqQg%3D%3D; Expires=Sat, 07-Jan-2012 09:41:40 GMT; Path=/
+Cookie: JSESSIONID=706B9DCF660C70B13543362A2937DE0E; Path=/pams2
+Cookie: mmLogin=Rcq4RrnEklitLO0fKZOftke2JLnAhd34; Expires=Sat, 17-Mar-2012 09:41:41 GMT; Path=/
+
+
+2011-11-17 17:40:55,876875:Http(response) header:
+2011-11-17 17:40:55,882875:HTTP/1.1 500 Internal Server Error
+Content-length: 319
+Content-Type: text/vnd.wap.wml;charset=ISO-8859-1
+
+
+2011-11-17 17:40:55,891875:http error2
+2011-11-17 17:40:55,897875:CFlowPageManager::OnHttpError: Error returned from http server
+2011-11-17 17:40:55,903875:2
+2011-11-17 17:40:55,908875:CAppMain::OnTaskFailed: task failed
+2011-11-17 17:40:55,912875:5
+2011-11-17 17:40:55,917875:2
+2011-11-17 17:40:55,923875:3
+2011-11-17 17:40:56,064500:CApplicationManager::StartTask
+2011-11-17 17:40:57,078125:App Task Finished
+2011-11-17 17:40:57,084125:CAppMain::OnTaskSuccess
+2011-11-17 17:40:58,095750:close connection complete.
+2011-11-17 17:40:58,102750:Network closed

@@ -1,0 +1,26 @@
+/*
+* ============================================================================
+*  Name     : Bld.inf
+*  Part of  : server
+*  Created  : 03.07.2009 by 
+*  Description:
+*      Build info file for server
+*  Version  :
+*  Copyright: 
+* ============================================================================
+*/
+
+#ifdef EKA2
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+PRJ_MMPFILES
+Installer.mmp
+
+#else
+
+PRJ_PLATFORMS
+WINS WINSCW THUMB ARMI
+PRJ_MMPFILES
+
+#endif
+

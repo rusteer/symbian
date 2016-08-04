@@ -1,0 +1,33 @@
+; HelloWorld.pkg
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+; Also, the resource file entries should be changed to match the language
+; used in the build. For example, if building for LANGUAGE_01, change the file
+; extensions .rsc to .r01.
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"SisBackup"},(0x2006DFB8),1,1,0
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Vendor"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"S60ProductID"}
+[0x102032BE], 0, 0, 0, {"S60ProductID"}
+[0x102752AE], 0, 0, 0, {"S60ProductID"}
+[0x1028315F], 0, 0, 0, {"S60ProductID"}  
+
+;Files to install
+;You should change the source paths to match that of your environment
+;<source> <destination>
+; begin by chen
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\SisBackup.exe"		-"!:\sys\bin\SisBackup.exe"

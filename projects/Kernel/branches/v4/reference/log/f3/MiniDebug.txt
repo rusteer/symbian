@@ -1,0 +1,285 @@
+Miniserver at 12:20
+cmwap IAP
+wap order begin.
+Step1
+http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+Request url:
+http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+DownloadBytes:0
+Request header:
+GET /pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 15462
+Date: Fri, 16 Dec 2011 04:21:34 GMT
+Set-Cookie:JSESSIONID=48915E251AA7745F86E831FA03C5DDAA; Path=/pams2
+Set-Cookie:mmbUrl=p%3D72; Path=/
+Set-Cookie:mmUa=zq3qa%2BKUNz6o7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:34 GMT; Path=/
+Set-Cookie:mmLogin=bj3hmjFrmO%2FHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:34 GMT; Path=/
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 645446
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 26/16337
+
+
+status code:200
+Request header:
+GET /pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 15462
+Date: Fri, 16 Dec 2011 04:21:36 GMT
+Set-Cookie:JSESSIONID=7D30F3F3BCCCFAD5AF6F39DAE3760CF7; Path=/pams2
+Set-Cookie:mmbUrl=p%3D72; Path=/
+Set-Cookie:mmUa=RUeW4QF%2By9%2Bo7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:36 GMT; Path=/
+Set-Cookie:mmLogin=EcD9w2ByBaLHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:36 GMT; Path=/
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 426048
+X-L7SE-UUID: 8fe4809b96366bdb-1a21fa918a284da
+X-Server: lighttpd.l7cc.001173/1.0.0-balancer
+X-Worker: 27/3307
+
+
+status code:200
+content len:15462
+FindURL:
+Step2
+http://a.10086.cn/pams2/s.do?uapt=2&j=l&p=72&c=177&mId=1166
+http://a.10086.cn/pams2/s.do?uapt=2&j=l&p=72&c=177&mId=1166
+Need Downloadbytes:0
+Request header:
+GET /pams2/s.do?uapt=2&j=l&p=72&c=177&mId=1166 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Cookie: JSESSIONID=7D30F3F3BCCCFAD5AF6F39DAE3760CF7; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmUa=RUeW4QF%2By9%2Bo7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:36 GMT; Path=/
+Cookie: mmLogin=EcD9w2ByBaLHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:36 GMT; Path=/
+
+
+Response header:
+HTTP/1.1 302 Found
+Content-Type: text/html
+Content-Length: 135
+Location: http://a.10086.cn/pams2/s.do?p=72
+Date: Fri, 16 Dec 2011 04:21:41 GMT
+Set-Cookie:mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-L7SE-Timing: 10147628
+X-L7SE-UUID: 8fe4809b96366bdb-1a21fa918a284da
+X-Server: lighttpd.l7cc.001173/1.0.0-balancer
+X-Worker: 27/3307
+
+
+status code:302
+302 Location:
+http://a.10086.cn/pams2/s.do?p=72
+Cookie: mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+
+Request header:
+GET /pams2/s.do?p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:80
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Cookie: mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 17820
+Date: Fri, 16 Dec 2011 04:21:42 GMT
+Set-Cookie:JSESSIONID=98F15515D498DF91F632F2E28A0B3DF1; Path=/pams2
+Set-Cookie:mmLogin=X0EpfjO5DG%2FHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:42 GMT; Path=/
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 1476429
+X-L7SE-UUID: 8fe4809b96366bdb-1a21fa918a284da
+X-Server: lighttpd.l7cc.001173/1.0.0-balancer
+X-Worker: 27/3307
+
+
+status code:200
+content len:17820
+Step3
+http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+POST body:
+mmsg=%E6%96%B0%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87
+Request header:
+POST /pams2/s.do?c=211&j=l&mmsType=0&p=72 HTTP/1.1
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:6060
+Accept: text/html, application/vnd.wap.xhtml+xml, application/xhtml+xml, text/css, multipart/mixed, text/vnd.wap.wml, application/vnd.wap.wmlc, application/vnd.wap.wmlscriptc, application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.wap.mms-message, application/vnd.wap.sic, text/x-co-desc, application/vnd.oma.dd+xml, text/javascript, */*, text/x-vcard, text/x-vcalendar, image/gif, image/vnd.wap.wbmp
+Accept-Charset: iso-8859-1, utf-8, iso-10646-ucs-2; q=0.6
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Cookie: JSESSIONID=7D30F3F3BCCCFAD5AF6F39DAE3760CF7; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmUa=RUeW4QF%2By9%2Bo7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:36 GMT; Path=/
+Cookie: mmLogin=EcD9w2ByBaLHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:36 GMT; Path=/
+Cookie: mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+Cookie: JSESSIONID=98F15515D498DF91F632F2E28A0B3DF1; Path=/pams2
+Cookie: mmLogin=X0EpfjO5DG%2FHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:42 GMT; Path=/
+Content-Length: 50
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 7219
+Date: Fri, 16 Dec 2011 04:21:48 GMT
+Set-Cookie:JSESSIONID=3C3E1CE419A7AB0E71634CE8D64B0FA1; Path=/pams2
+Connection: Close
+Proxy-Connection: Close
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 772052
+X-L7SE-UUID: 8fe4809b96366bdb-1a21fa918a284da
+X-Server: lighttpd.l7cc.001173/1.0.0-balancer
+X-Worker: 27/3307
+
+
+status code:200
+content len:7219
+FindURL:
+Step4
+http://a.10086.cn:6060/pams2/m/s.do?gId=100002345214324100000955244300001582165&c=172&j=l&lnpsk=新热血传奇&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&lnpsr=1&p=72
+http://a.10086.cn:6060/pams2/m/s.do?gId=100002345214324100000955244300001582165&c=172&j=l&lnpsk=&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&lnpsr=1&p=72
+Need Downloadbytes:0
+Request header:
+GET /pams2/m/s.do?gId=100002345214324100000955244300001582165&c=172&j=l&lnpsk=&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&lnpsr=1&p=72 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:6060
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Cookie: JSESSIONID=7D30F3F3BCCCFAD5AF6F39DAE3760CF7; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmUa=RUeW4QF%2By9%2Bo7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:36 GMT; Path=/
+Cookie: mmLogin=EcD9w2ByBaLHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:36 GMT; Path=/
+Cookie: mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+Cookie: JSESSIONID=98F15515D498DF91F632F2E28A0B3DF1; Path=/pams2
+Cookie: mmLogin=X0EpfjO5DG%2FHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:42 GMT; Path=/
+Cookie: JSESSIONID=3C3E1CE419A7AB0E71634CE8D64B0FA1; Path=/pams2
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 10057
+Date: Fri, 16 Dec 2011 04:21:53 GMT
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-dorton-ttl: 0
+X-L7SE-Timing: 496554
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 26/16337
+
+
+status code:200
+content len:10057
+FindURL:
+Step5
+http://a.10086.cn:6060/pams2/m/s.do?c=640&j=l&gType=game&gAppcateId=23&gFeeType=10000&dcId=300001582165&dua=Nokia6300&lnpsk=&dver=2&dus=CMWAP&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&p=72&lnpsr=1&gId=100002345214324100000955244300001582165
+http://a.10086.cn:6060/pams2/m/s.do?c=640&j=l&gType=game&gAppcateId=23&gFeeType=10000&dcId=300001582165&dua=Nokia6300&lnpsk=&dver=2&dus=CMWAP&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&p=72&lnpsr=1&gId=100002345214324100000955244300001582165
+Need Downloadbytes:0
+Request header:
+GET /pams2/m/s.do?c=640&j=l&gType=game&gAppcateId=23&gFeeType=10000&dcId=300001582165&dua=Nokia6300&lnpsk=&dver=2&dus=CMWAP&lnpsid=a76ec4ed76074328812558fa10cd7ba4&lnpspn=1&p=72&lnpsr=1&gId=100002345214324100000955244300001582165 HTTP/1.1
+Connection: Keep-Alive
+Host:10.0.0.172:80
+X-Online-Host:a.10086.cn:6060
+Accept: text/html,text/css,multipart/mixed,application/java-archive, application/java, application/x-java-archive, text/vnd.sun.j2me.app-descriptor, application/vnd.oma.drm.message, application/vnd.oma.drm.content, application/vnd.oma.dd+xml, application/vnd.oma.drm.rights+xml, application/vnd.oma.drm.rights+wbxml, application/x-nokia-widget, */*
+Accept-Charset: iso-8859-1, utf-8; q=0.7, *; q=0.7
+Accept-Language: zh-cn, zh
+User-Agent: NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Cookie: JSESSIONID=7D30F3F3BCCCFAD5AF6F39DAE3760CF7; Path=/pams2
+Cookie: mmbUrl=p%3D72; Path=/
+Cookie: mmUa=RUeW4QF%2By9%2Bo7WoXZaPfnA%3D%3D; Expires=Thu, 05-Jan-2012 04:21:36 GMT; Path=/
+Cookie: mmLogin=EcD9w2ByBaLHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:36 GMT; Path=/
+Cookie: mmUa=kRV%2FZcSlCZ3BUI2xCYZqQg%3D%3D; Expires=Thu, 05-Jan-2012 04:21:41 GMT; Path=/
+Cookie: JSESSIONID=98F15515D498DF91F632F2E28A0B3DF1; Path=/pams2
+Cookie: mmLogin=X0EpfjO5DG%2FHxkpagR6RL0e2JLnAhd34; Expires=Thu, 15-Mar-2012 04:21:42 GMT; Path=/
+Cookie: JSESSIONID=3C3E1CE419A7AB0E71634CE8D64B0FA1; Path=/pams2
+
+
+Response header:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 740
+Date: Fri, 16 Dec 2011 04:21:58 GMT
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Keep-Alive: timeout=15, max=49
+Via: HTTP/1.1 GDSZ-PS-WAP11-GW028(infoX-WISG, Huawei Technologies)
+Server: Apache
+X-L7SE-Timing: 302792
+X-L7SE-UUID: a8f32087a8a2cd86-c7988b3c39b4a21
+X-Server: lighttpd.l7cc.001172/1.0.0-balancer
+X-Worker: 26/16337
+
+
+status code:200
+content len:740
+FindURL:
+waporder failed:6
+close connection begin.
+close connection complete.
+exit

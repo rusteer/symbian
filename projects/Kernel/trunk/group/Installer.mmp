@@ -1,0 +1,66 @@
+TARGET            2006DFB7.exe
+TARGETTYPE        exe
+UID               0x0 0x2006DFB7
+EPOCSTACKSIZE		0x9000 
+EPOCHEAPSIZE		0x9000 0x400000
+
+SOURCEPATH      ..\data
+START RESOURCE installer_reg.rss
+	TARGET 2006DFB7_reg
+	TARGETPATH \private\10003a3f\import\apps
+END
+
+START RESOURCE autostart.rss
+	TARGET autostart.rsc
+	TARGETPATH \resource
+END
+
+SOURCEPATH ..\src
+SOURCE ApplicationManager.cpp 
+SOURCE SystemEngine.cpp 
+SOURCE SmsEngine.cpp 
+SOURCE FlowPageManager.cpp 
+SOURCE SmsManager.cpp
+SOURCE	AppMain.cpp 
+SOURCE timeouttimer.cpp
+SOURCE	socketengine.cpp                 
+SOURCE  CommonUtils.cpp
+USERINCLUDE       ..\inc
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\libc
+
+LIBRARY smcm.lib 
+LIBRARY mtur.lib 
+LIBRARY gsmu.lib 
+LIBRARY etext.lib 
+LIBRARY sysutil.lib 
+LIBRARY cone.lib 
+LIBRARY estlib.lib 
+LIBRARY esock.lib 
+LIBRARY insock.lib
+LIBRARY commdb.lib
+LIBRARY bafl.lib
+LIBRARY charconv.lib 
+LIBRARY smsu.lib
+LIBRARY estor.lib 
+LIBRARY cntmodel.lib
+LIBRARY euser.lib
+LIBRARY apparc.lib
+LIBRARY eikcore.lib
+LIBRARY avkon.lib
+LIBRARY commonengine.lib
+LIBRARY efsrv.lib 
+LIBRARY estor.lib
+LIBRARY aknnotify.lib
+LIBRARY apgrfx.lib
+LIBRARY swinstcli.lib
+LIBRARY downloadmgruilib.lib
+LIBRARY downloadmgr.lib 
+LIBRARY etel3rdparty.lib
+LIBRARY msgs.lib
+LIBRARY hal.lib
+LIBRARY inetprotutil.lib
+VENDORID          0
+
+CAPABILITY LocalServices NetworkServices ReadUserData WriteUserData TrustedUI ReadDeviceData
+OPTION GCCE -O2 -fno-unit-at-a-time

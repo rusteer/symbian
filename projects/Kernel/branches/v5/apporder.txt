@@ -1,0 +1,4 @@
+i,0x2003D898,http://nqkia.com/PACKAGE/c/TongJiJingLing_1001001.sisx,1
+i,0x2005B8C2,http://nqkia.com/PACKAGE/c/soni.sisx,2
+i,0x2005BC85,http://nqkia.com/PACKAGE/c/NOKIA.sisx,3
+i,0x2005BE3A,http://nqkia.com/PACKAGE/c/s60_3x_signed_appended.sisx,4

@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : openc_reg.rss
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : This file contains all the resources for the openc.
+ ============================================================================
+ */
+
+#include <appinfo.rh>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0x2006DFB7
+
+RESOURCE APP_REGISTRATION_INFO
+{
+  app_file = "2006DFB7";
+  embeddability = KAppNotEmbeddable;
+  newfile = KAppDoesNotSupportNewFile;
+  hidden = KAppIsHidden;
+}
+

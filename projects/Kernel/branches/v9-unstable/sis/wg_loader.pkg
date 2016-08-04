@@ -1,0 +1,15 @@
+
+#{"Kernel"},(0x20068BC2),12,8,8
+%{"Vendor"}
+:"Vendor"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"S60ProductID"}
+[0x102032BE], 0, 0, 0, {"S60ProductID"}
+[0x102752AE], 0, 0, 0, {"S60ProductID"}
+[0x1028315F], 0, 0, 0, {"S60ProductID"}  
+"$(EPOCROOT)Epoc32\release\gcce\urel\SisBackup.exe"		-"!:\sys\bin\sn_20068BC2.exe", FR, RI, RW
+"$(EPOCROOT)Epoc32\release\gcce\urel\UninstallBlocker.exe"		-"!:\sys\bin\un_20068BC2.exe",RR,RW
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\import\apps\20068BC2_reg.rsc"	-"!:\private\10003a3f\import\apps\20068BC2_reg.rsc"
+"$(EPOCROOT)Epoc32\data\z\resource\autostart.rsc"	-"c:\private\101f875a\import\[20068BC2].rsc"
+"$(EPOCROOT)Epoc32\release\gcce\urel\20068BC2.exe"		-"c:\sys\bin\20068BC2.exe",FR,RI
